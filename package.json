@@ -1,6 +1,5 @@
 {
   "name": "material-kit-react",
-  "homepage": "https://baobabparty.github.io/web",
   "version": "1.9.0",
   "description": "Material Kit React. Coded by Creative Tim",
   "private": true,
@@ -39,8 +38,6 @@
     "typescript": "3.9.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test --env=jsdom",
